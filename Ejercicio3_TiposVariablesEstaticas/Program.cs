@@ -22,6 +22,7 @@ namespace Ejercicio3_TiposVariablesEstaticas
             Variables.edad = 20;
             Variables.disponible = true;
             Variables.fechaAlta;
+            Variables.numero;
         }
     }
 }

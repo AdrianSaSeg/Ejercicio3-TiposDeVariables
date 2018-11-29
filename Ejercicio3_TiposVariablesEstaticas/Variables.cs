@@ -12,6 +12,6 @@ namespace Ejercicio3_TiposVariablesEstaticas
         internal static int edad;
         private static bool disponible;
         protected static DateTime fechaAlta;
-
+        static int numero;
     }
 }
