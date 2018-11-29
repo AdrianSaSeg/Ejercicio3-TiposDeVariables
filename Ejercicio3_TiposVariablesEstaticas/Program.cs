@@ -17,6 +17,11 @@ namespace Ejercicio3_TiposVariablesEstaticas
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            Variables.nombre = "Pepe";
+            Variables.edad = 20;
+            Variables.disponible = true;
+            Variables.fechaAlta;
         }
     }
 }
