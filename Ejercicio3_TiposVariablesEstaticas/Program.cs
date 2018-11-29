@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tulpep.NotificationWindow;
 
 namespace Ejercicio3_TiposVariablesEstaticas
 {
@@ -20,9 +21,12 @@ namespace Ejercicio3_TiposVariablesEstaticas
 
             Variables.nombre = "Pepe";
             Variables.edad = 20;
-            Variables.disponible = true;
+           /* Variables.disponible = true;
             Variables.fechaAlta;
-            Variables.numero;
+            Variables.numero;*/
+
+            /*int res = Variables.accesoVariable(3);
+            MessageBox.Show(Convert.ToString(res));*/
         }
     }
 }

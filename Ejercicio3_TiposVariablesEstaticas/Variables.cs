@@ -10,8 +10,17 @@ namespace Ejercicio3_TiposVariablesEstaticas
     {
         public static string nombre;
         internal static int edad;
-        private static bool disponible;
+        private static int numeroPrivate;
         protected static DateTime fechaAlta;
         static int numero;
+
+        public static int accesoVariable(int a)
+        {
+            numeroPrivate = a;
+            return numeroPrivate;
+        }
+
+
     }
+
 }
